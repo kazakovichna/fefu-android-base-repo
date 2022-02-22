@@ -1,3 +1,80 @@
 <resources>
     <string name="app_name">Activity Tracker</string>
+    <string name="label_about">Пожалуй, лучший\nфитнес-трекер в ДВФУ</string>
+    <string name="label_author">Созданный студентами\n1-го курса</string>
+    <string name="button_register">Зарегистрироваться</string>
+    <string name="button_login">Уже есть аккаунт?</string>
+    <string name="label_login">Вход</string>
+    <string name="hint_login">Логин</string>
+    <string name="hint_password">Пароль</string>
+    <string name="button_continue">Продолжить</string>
+    <string name="label_register">Регистрация</string>
+    <string name="hint_confirm_password">Повторите пароль</string>
+    <string name="hint_name">Имя или никнейм</string>
+    <string name="hint_sex">Пол</string>
+    <string name="label_raw_confirmation">Нажимая на кнопку, вы соглашаетесь с [политикой конфиденциальности] и обработки персональных данных, а также принимаете [пользовательское соглашение]</string>
+    <string name="label_sex_man">Мужчина</string>
+    <string name="label_sex_woman">Женщина</string>
+    <string name="label_sex_other">Другое</string>
+    <string name="action_activity">Активность</string>
+    <string name="action_profile">Профиль</string>
+    <string name="action_activity_my">Моя</string>
+    <string name="action_activity_users">Пользователей</string>
+    <plurals name="meters">
+        <item quantity="one">%d м</item>
+        <item quantity="other">%d м</item>
+    </plurals>
+    <string name="kilometers">%.2f км</string>
+    <plurals name="minutes">
+        <item quantity="zero">%d минут</item>
+        <item quantity="one">%d минуту</item>
+        <item quantity="two">%d минуты</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="zero">%d часов</item>
+        <item quantity="one">%d час</item>
+        <item quantity="two">%d часа</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+    <plurals name="abbreviated_minutes">
+        <item quantity="zero">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+    <plurals name="abbreviated_hours">
+        <item quantity="zero">%d ч</item>
+        <item quantity="other">%d ч</item>
+    </plurals>
+    <string name="ago">назад</string>
+    <string name="of_year">%s года</string>
+    <string name="activity_details_start_label">Старт</string>
+    <string name="activity_details_end_label">Финиш</string>
+    <string name="comment_hint">Комментарий</string>
+    <string name="action_delete_activity">Удалить</string>
+    <string name="action_share_activity">Поделиться</string>
+    <string name="label_profile_title">Профиль</string>
+    <string name="action_save_profile">Сохранить</string>
+    <string name="action_profile_logout">Выйти</string>
+    <string name="hint_profile_login">Логин</string>
+    <string name="hint_profile_name">Имя или никнейм</string>
+    <string name="action_change_password">Изменить пароль</string>
+    <string name="label_change_password">Изменить пароль</string>
+    <string name="label_change_password_previous_password">Старый пароль</string>
+    <string name="label_change_password_new_password">Новый пароль</string>
+    <string name="label_change_password_repeat_new_password">Повторите пароль</string>
+    <string name="action_change_password_confirm_new_password">Принять</string>
+    <string name="action_new_activity">Новая активность</string>
+    <string name="label_new_activity_start">Погнали? :)</string>
+    <string name="action_new_activity_start">Начать</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_finish">Закончить</string>
+    <string name="label_bicycle">Велосипед</string>
+    <string name="label_run">Бег</string>
+    <string name="label_walk">Шаг</string>
+    <string name="label_user_activity_start_training">Время тренировки</string>
+    <string name="label_user_activity_start_tutorial">Нажимай на кнопку ниже, и начинаем трекать активность</string>
 </resources>

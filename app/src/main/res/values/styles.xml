@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeOverlayOutlined" parent="ThemeOverlay.MaterialComponents.TextInputEditText">
+        <item name="editTextStyle">@style/TextInputEditText</item>
+    </style>
+
+    <style name="TextInputEditText" parent="@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="maxLines">1</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@drawable/edit_text_text_color_selector</item>
+    </style>
+
+    <style name="OutlinedInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlayOutlined</item>
+        <item name="passwordToggleDrawable">@drawable/outline_visibility_selector</item>
+        <item name="boxBackgroundColor">@drawable/edit_text_background_color_selector</item>
+    </style>
+
+    <style name="UnelevatedMaterialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/vivid_violet</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="RegularText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/dark</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
